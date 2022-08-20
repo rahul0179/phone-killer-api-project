@@ -33,10 +33,12 @@ const search = () => {
 
 
 const displaySearch = (searchMobole) => {
+
+
     // get data and select data 
-    console.log(searchMobole);
+    //console.log(searchMobole);
     const data = searchMobole.data;
-    console.log(data)
+    //console.log(data)
     const card = document.getElementById('card')
     const displayPic = document.getElementById("displayPicture")
     // clear display 
@@ -109,9 +111,9 @@ const mobileDetailShow = d => {
     </div>
 
 </div>
-    
-    
-    `
+       `
+
+
     const div2 = document.createElement('div');
     div2.innerHTML = `
     <table class="table">
@@ -182,15 +184,7 @@ const mobileDetailShow = d => {
     
     
     `
-
-
-
-
-
     card2.appendChild(div);
-    card2.appendChild(div2)
-
-
-
+    card2.appendChild(div2);
 }
 
